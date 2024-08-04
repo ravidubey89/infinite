@@ -1,0 +1,51 @@
+.contact-row h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contactHero {
+  width: 100%;
+  min-height: 550px;
+  background: linear-gradient(#11534d, rgba(10 8 110 / 70%)), url(../home-banner.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  }
+  .contactHero h1 {
+    max-width: 665px;
+      margin: 0 auto;
+      position: absolute;
+      top: 24%;
+      left: 49%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+  }
+.contact-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-details {
+    background-color: #f1f1ec;
+    padding: 30px 15px;
+    margin: 1%;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+    
+}
+.contact-details strong {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    display: block;
+}
+.contact-details img {
+    max-width: 50px;
+   
+    margin: 0 auto;
+    display: table;
+}

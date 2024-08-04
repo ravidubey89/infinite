@@ -1,0 +1,40 @@
+.commonContents {
+    margin-top: 40px;
+}
+
+.commonContents h3 {
+    color: #212EA0;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.commonContents strong {
+    font-size: 22px;
+    font-weight: 800;
+    margin: 15px 0;
+    display: block;
+    margin-top: 25px;
+}
+.commonContents p {
+    margin: 15px 0;
+}
+.commonContents a {
+    color: #212EA0;
+}
+.privacy-policy-repeat ul {
+    padding-left: 30px;
+}
+.privacy-policy-repeat ul li {
+    margin: 10px 0;
+}
+@media(max-width:992px){
+    .commonContents h3 {
+        font-size: 24px;
+    }
+    .commonContents p {
+        text-align: justify;
+    }
+    .commonContents strong {
+        font-size: 18px;
+    }
+}

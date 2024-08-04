@@ -1,0 +1,117 @@
+.hero {
+  width: 100%;
+  min-height: 550px;
+  background: linear-gradient(#11534d, rgba(10 8 110 / 70%)), url(../home-banner.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.hero_container {
+  max-width: 670px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hero_container h1 {
+  margin-bottom: 30px;
+  font-size: 42px;
+}
+.hero_container a {
+  background-color: #cbf3f0;
+  border-radius: 50px;
+  color: #11534d;
+  border: 3px solid #2ec4b6;
+  line-height: 1;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 20px 25px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  min-width: 200px;
+  text-align: center;
+}
+
+.hero_container a:hover,
+.hero_container a:focus {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@-webkit-keyframes wobble {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes wobble {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@media(max-width:767px){
+  .hero_container {
+    max-width: 340px;
+    top: 49%;
+  }
+  .hero_container h1 {
+    font-size: 30px;
+}
+
+}
