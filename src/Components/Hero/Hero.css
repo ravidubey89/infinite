@@ -1,6 +1,6 @@
 .hero {
   width: 100%;
-  min-height: 550px;
+  min-height: 400px;
   background: linear-gradient(#11534d, rgba(10 8 110 / 70%)), url(../home-banner.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,7 +12,7 @@
     width: 100%;
     margin: 0 auto;
     position: absolute;
-    top: 40%;
+    top: 32%;
     left: 49%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -108,7 +108,7 @@
 @media(max-width:767px){
   .hero_container {
     max-width: 340px;
-    top: 49%;
+    top: 35%;
   }
   .hero_container h1 {
     font-size: 30px;

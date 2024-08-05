@@ -4,7 +4,7 @@
 }
 .contactHero {
   width: 100%;
-  min-height: 550px;
+  min-height: 400px;
   background: linear-gradient(#11534d, rgba(10 8 110 / 70%)), url(../home-banner.webp);
   background-repeat: no-repeat;
   background-size: cover;
