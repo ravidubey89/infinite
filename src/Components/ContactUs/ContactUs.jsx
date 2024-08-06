@@ -19,13 +19,13 @@ const ContactUs = () => {
           <div className='contact-details'>
             <img src='/mail-icon.png'/>
               <strong>Email</strong>
-             <a href='mailto:inof@spectinternet.com'>inof@spectinternet.com</a>
+             <a href='mailto:support@infiniteepicenter.com'>support@infiniteepicenter.com</a>
           </div>
           <div className='contact-details'>
             <img src='/phone-icon.png'/>
               <strong>Contact Number</strong>
               <p>
-              2092887861 
+              2092173571 
               </p>
           </div>
         </div>

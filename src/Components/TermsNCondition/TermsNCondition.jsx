@@ -67,7 +67,7 @@ const TermsNCondition = () => {
             <div className='privacy-policy-repeat'>
               
               <p>By renting a truck from Infinite Epicenter, you acknowledge that you have read, understood, and agree to these Terms and Conditions.</p>
-              <a href='tel:2092887861' className='btn'>Getting Started</a>
+              <a href='tel:2092173571' className='btn'>Getting Started</a>
             </div>
 
         </div>

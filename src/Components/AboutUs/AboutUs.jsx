@@ -41,7 +41,7 @@ const AboutUs = () => {
               </div>
               {/* <div className='abt-right'>
                 <img src='/slide-image-free-img.png' />
-                <a href='tel:2092887861' className='btn'>Contact us</a>
+                <a href='tel:2092173571' className='btn'>Contact us</a>
               </div> */}
             </div>
         </div>
